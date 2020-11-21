@@ -1,6 +1,7 @@
 name: Jekyll Bulma
 description: "Jekyll Bulma Theme, Bulma.io CSS Framework Jekyll Template for Developers"
-baseurl: /jekyll-bulma
+baseurl:
+remote_theme: erayaydin/jekyll-bulma
 url: http://erayaydin.github.io
 download: "https://github.com/erayaydin/jekyll-bulma/archive/master.zip"
 social:
