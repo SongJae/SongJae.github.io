@@ -27,7 +27,7 @@ layout: default
             </div>
             {% endif %}
             <div class="card-content">
-                <h3 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}" title="{{this one}}">{{ post.title }}</a></h3>
+                <h3 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}" title="{{post.title}}">{{ post.title }}</a></h3>
                 <p class="post-categories">
                     {% for category in post.categories %}
                     <a href="/{{ category | prepend: site.baseurl }}" class="tag {% if site.data.category[category].color %} is-{{ site.data.category[category].color }} {% endif %}">{{ category }}</a>
