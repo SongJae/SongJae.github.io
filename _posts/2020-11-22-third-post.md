@@ -12,7 +12,7 @@ title:  "나의 개발 능력 및 역할 분석"
 
 - pytorch의 기본적인 사용방법을 익히고 머신러닝을 위한 여러가지 모델을 다루어보았다.
 
-- 다루어본 모델들로는 Deep Neural Network, Convolutional Neural Network, CNN, RNN, ResNet, SENet과 같은 모델들이 있다.
+- 다루어본 모델들로는 Deep Neural Network, Convolutional Neural Network, RNN, ResNet, SENet과 같은 모델들이 있다.
 
 나의 역할 분석
 
