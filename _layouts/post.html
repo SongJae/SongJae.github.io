@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<section class="hero is-primary">
+    <div class="hero-body">
+        <div class="container is-fluid">
+            <h1 class="title">
+                {{ page.title }}
+            </h1>
+            <h2 class="subtitle">
+                {{ page.description }}
+            </h2>
+        </div>
+    </div>
+</section>
+<section class="section">
+    <div class="container is-fluid">
+        <div class="content">
+            {{ content }}
+        </div>
+    </div>
+</section>
+
+        {% if page.comments %}
+        <div class="box">
+            <div id="disqus_thread"></div>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endif %}
