@@ -20,6 +20,17 @@ layout: default
         </div>
     </div>
 </section>
+{% if site.author.show_on_post or page.comments %}
+<div class="section">
+    <div class="container is-fluid">
+
+        {% if site.author.show_on_post %}
+        <div class="box">
+            <div class="media">
+            
+            </div>
+        </div>
+        {% endif %}
 
         {% if page.comments %}
         <div class="box">
