@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Hello, this is my page"
-date:   2020-11-15 21:03:36 +0530
+title:  "프로젝트 진행사항"
 ---
-This is a page for development.
+1. 프로젝트 선정 과정
+- 팀원들이 각자
 
 
